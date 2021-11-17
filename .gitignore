@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#C++ program to find size of integer float double and Char in your system
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
 
-# Precompiled Headers
-*.gch
-*.pch
+    return 0;
+}
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#C++ program to find the product of two numbers entered by the user
+int main() 
+{
+    float a, b, product;
+    cout << "Enter two Numbers\n";
+    cin >> a >> b;
+    product = a*b;
+    cout << "Product = " << product;
+    return 0;
+}
